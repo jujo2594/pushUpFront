@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css");
+
+*{
+    overflow: hidden;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.container-fluid{
+    justify-content: space-between;
+}
+
+.nav-principal{
+    padding: 1.5vw 5vw 1.5vw 5vw;
+    background-color: #fff !important;
+}
+
+.sub-menu{
+    padding-left: 50vw ;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.first-Product{
+    width: 10vw !important;
+    height: 50vw;
+}
+
+.presentation{
+    display: flex;
+    align-items: center;
+    padding-left: 7vw;
+}
+
+.text{
+    width: 50vw;
+}
+
+.text > p{
+    width: 40vw;
+}
+
+.title{
+    font-size: 4vw;
+}
+
+.title >span{
+    font-weight: bolder;
+    color: #017043;
+}
+
+.first-Product, .second-Product, .third-Product{
+    padding-top: 2vw;
+    width: 30vw !important;
+    height: 40vw;
+}
+
+.carousel-indicators{
+    margin: 0;
+    width: 70vw;
+    height: 10vw;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.thumb1, .thumb2, .thumb3{
+    height: 8vw !important;
+    width: 6vw !important;
+    background-color: transparent !important;
+}
+
+.social-Media{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: end;
+    padding-right: 1vw;
+    top: 30%;
+    z-index: 1;
+    left: 90%;
+    width: 10vw;
+    height: 20vw;
+}
+
+.social-Media > a{
+    cursor: pointer;
+}
+
+.social-symbol{
+    font-size: 45px;
+    color: black;
+    opacity: 70%;
+}
+
+.ball{
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    z-index: 0;
+    width: 100vw;
+    height: 100vw;
+    background-color: #017043;
+    border-radius: 100%;
+}
+
+.inicio{
+    text-align: center;
+    border: 2px solid #017043;
+    width: 4vw;
+    height: 1.5vw;
+}
+
+

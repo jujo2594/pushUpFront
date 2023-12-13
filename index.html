@@ -1,11 +1,101 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>PushUp</title>
+    <!-- Styles -->
+    <link rel="stylesheet" href="style/bootstrap-css/bootstrap.min.css">
+    <link rel="stylesheet" href="style/style.css">
+    <!-- Javascript -->
+    <script src="js/bootstrap-js/bootstrap.bundle.min.js"></script>
+    <script src="js/script.js" defer></script>
+    <!-- Title -->
+    <title>Starbucks</title>
+    <!-- FavIcon -->
+    <link rel="icon" href="images/logo.png" type="image/starbucks-icon">
 </head>
+
 <body>
-    <h1>Cristian Tramposo</h1>
+
+    <div class="social-Media">
+        <a href="https://www.facebook.com/StarbucksColombia/?locale=es_LA"><i class="social-symbol bi bi-facebook"></i></a>
+        <a href="https://twitter.com/starbuckscol?lang=es"><i class="social-symbol bi bi-twitter-x"></i></a>
+        <a href="https://www.instagram.com/starbuckscol/?hl=es"><i class="social-symbol bi bi-instagram"></i></a>
+    </div>
+
+    <div class="ball">
+    </div>
+
+    <nav class="navbar navbar-expand-lg bg-body-tertiary nav-principal">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <img src="./images/logo.png" alt="Starbucks" width="70vw" height="70vw">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse sub-menu" id="navbarNav">
+                <span class="nav-item inicio"><a class="nav-link" href="#">Inicio</a></span>
+                <span class="nav-item"><a class="nav-link" href="https://www.starbucks.com.co/menu">Menu</Menu></a></span>
+                <span class="nav-item"><a class="nav-link" href="https://www.starbucks.com.co/seccion/novedades">Novedades</a></span>
+                <span class="nav-item"><a class="nav-link" href="https://www.starbucks.com.co/stores">Contacto</a></span>
+            </div>
+        </div>
+    </nav>
+
+    <div id="carouselExampleCaptions" class="carousel slide">
+
+        <div class="carousel-indicators">
+                <img type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" aria-label="Slide 1" src="images/thumb1.png" class="thumb1 active" alt="description-image" aria-current="true"  >
+                <img type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2" src="images/thumb2.png" class="thumb2 active" alt="description-image2">
+                <img type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3" src="images/thumb3.png" class="thumb3 active" alt="description-image3">
+        </div>
+
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <div class="presentation">
+                    <div class="text">
+                        <h3 class="title">It's not just Coffe</h3>
+                        <h3 class="title">It's <span>Starbucks</span></h3>
+                        <p class="decription">Since 1971, it always be about quality. We're passionate about it ethicaly
+                            sourcing only the finest Arabic coffe beans and roasting them with great care. Our passion
+                            for coffe is rivaled only by our love for sharing it</p>
+                    </div>
+                    <img src="images/img1.png" class="first-Product" alt="first-Product">
+                </div>
+            </div>
+
+            <div class="carousel-item">
+                <div class="presentation">
+                    <div class="text">
+                        <h3 class="title">It's not just Coffe</h3>
+                        <h3 class="title">It's <span>Starbucks</span></h3>
+                        <p class="decription">Since 1971, it always be about quality. We're passionate about it ethicaly
+                            sourcing only the finest Arabic coffe beans and roasting them with great care. Our passion
+                            for coffe is rivaled only by our love for sharing it</p>
+                    </div>
+                    <img src="images/img2.png" class="second-Product" alt="second-Product">
+                </div>
+            </div>
+
+            <div class="carousel-item">
+                <div class="presentation">
+                    <div class="text">
+                        <h3 class="title">It's not just Coffe</h3>
+                        <h3 class="title">It's <span>Starbucks</span></h3>
+                        <p class="decription">Since 1971, it always be about quality. We're passionate about it ethicaly
+                            sourcing only the finest Arabic coffe beans and roasting them with great care. Our passion
+                            for coffe is rivaled only by our love for sharing it</p>
+                    </div>
+                    <img src="images/img3.png   " class="second-Product" alt="second-Product">
+                </div>
+            </div>
+        </div>
+
+    </div>
+    
 </body>
+
 </html>
